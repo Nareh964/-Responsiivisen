@@ -23,6 +23,7 @@ header{
     width: 100%;
     top:0;
     border-bottom:var(--grey) solid  2px;
+    
 }
 
 header nav{
@@ -118,3 +119,60 @@ tr:nth-child(even){
 }
 
 
+
+@media (max-width: 900px) {
+    main {
+        padding: 10px;
+        font-size: 1em;
+        padding-top: 60px;
+    }
+
+    header {
+        height: auto;
+        padding: 10px 0;
+        font-size: 1em;
+    }
+
+    header nav {
+        float: none;
+        text-align: center;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    header nav a {
+        display: inline-block;
+        padding: 10px 8px;
+        font-size: 1em;
+    }
+
+    section, table {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    table, th, td {
+        font-size: 0.95em;
+        padding: 6px;
+        word-break: break-word;
+    }
+
+    .showcase {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px 0;
+    }
+
+    .showcase h1 {
+        font-size: 1.5em;
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+
+    .showcase .introduction {
+        padding-left: 10px;
+        font-size: 1em;
+        line-height: 1.4em;
+    }
+}
